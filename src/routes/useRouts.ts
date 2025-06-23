@@ -5,5 +5,6 @@ const router = Router();
 
 router.get("/user", getUser);
 router.get("/list", userList);
+router.get("/list-list", userList);
 
 export default router;
